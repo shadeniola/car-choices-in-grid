@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    background: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+  
+}
+
+.grid-box{
+  
+
+    position: relative;
+    display: flex;
+    color: white;
+    width: 900px;
+    height: 500px;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+    padding: 25px 40px;
+    font-family: 'Joan', serif;
+}
+
+.grid-one{
+    background: rgb(255, 139, 30);
+    width: 33.3%;
+    align-content: center;
+    
+}
+
+.grid-two{
+    background: rgb(20, 109, 109);
+    width: 33.3%;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-three{
+   background: rgb(2, 34, 27);
+    width: 33.3%;
+
+}
+
+button{
+    width: 40%;
+    height: 40px;
+    padding: 0.5rem 1 rem;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1rem;
+    color: black;
+    transition: .3s ease-in-out;
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+p{
+    text-align: left;
+    font-family: 'joan', sans-serif;
+    font-weight: light;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    font-size: 13px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+h2{
+    margin-left: 25px;
+    margin-top: 40px;
+    font-family: 'joan' sans-serif;
+}
+
+img{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.grid-one button{
+    color: rgb(255, 139, 30);
+}
+.grid-two button{
+    color: rgb(20, 109, 109);
+}
+.grid-three button{
+    color: rgb(2, 34, 27);
+
+}
+.grid-one button:hover{
+    background: rgb(255, 139, 30);
+    border: 2px solid;
+    cursor: pointer;
+    color: white;
+    
+}
+.grid-two button:hover{
+    background:rgb(20, 109, 109);
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    
+}
+.grid-three button:hover{
+    background:rgb(2, 34, 27) ;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    
+}
+
